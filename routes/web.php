@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\MobilController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,5 +15,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('user/home', [
+        'name' => 'Quin',
+        'role' => 4
+    ]);
 });
+
+Route::get('/', [MobilController::class, 'index']);
