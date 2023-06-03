@@ -57,7 +57,7 @@
     </div>
 
     <div class="container">
-        <table class="table table-default">
+        <table class="table table-default text-capitalize">
             <tbody>
                 @foreach($mobilList as $data)
                     <tr>
@@ -67,9 +67,9 @@
                             {{ $data->kapasitas }} orang || {{ $data->bagasi }} bagasi <br>
                             {{ $data->transmisi }}
                         </td>
-                        <td class="float-end pe-5">
-                            <span class="fs-3">{{ $data->harga_sewa }}</span> / hari <br>
-                            ini buat button
+                        <td class="pe-4 pt-3 text-center">
+                            <span class="fs-3 fw-bold">{{ $data->harga_sewa }}</span> / hari<br>
+                            <a class="btn btn-primary" href="#" role="button">Sewa Mobil</a>
                         </td>
                     </tr>
                 @endforeach
@@ -77,6 +77,7 @@
         </table>
     </div>
 
+    <!-- datepicker -->
     <script type="text/javascript">
         $(function() {
             $('#datepicker').datepicker();
