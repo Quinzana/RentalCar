@@ -59,20 +59,7 @@
     <div class="container">
         <table class="table table-default text-capitalize">
             <tbody>
-                @foreach($mobilList as $data)
-                    <tr>
-                        <td class="ps-5 w-25"><img src="https://static.bangkokpost.com/media/content/20200316/3566445.jpg" alt="" style="max-width: 150px"></td>
-                        <td>
-                            <h3>{{ $data->nama_mobil }}</h3>
-                            {{ $data->kapasitas }} orang || {{ $data->bagasi }} bagasi <br>
-                            {{ $data->transmisi }}
-                        </td>
-                        <td class="pe-4 pt-3 text-center">
-                            <span class="fs-3 fw-bold">{{ $data->harga_sewa }}</span> / hari<br>
-                            <a class="btn btn-primary" href="#" role="button">Sewa Mobil</a>
-                        </td>
-                    </tr>
-                @endforeach
+                
             </tbody>
         </table>
     </div>
