@@ -17,8 +17,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('user/home', [
         'name' => 'Quin',
-        'role' => 4
+        'role' => 5
     ]);
 });
 
 Route::get('/', [MobilController::class, 'index']);
+Route::get('/mobil-detail/{id}', [MobilController::class, 'show']);

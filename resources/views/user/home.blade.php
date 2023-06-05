@@ -69,7 +69,7 @@
                         </td>
                         <td class="pe-4 pt-3 text-center">
                             <span class="fs-3 fw-bold">{{ $data->harga_sewa }}</span> / hari<br>
-                            <a class="btn btn-primary" href="#" role="button">Sewa Mobil</a>
+                            <a class="btn btn-primary" href="mobil-detail/{{ $data->id_mobil }}" role="button">Sewa Mobil</a>
                         </td>
                     </tr>
                 @endforeach

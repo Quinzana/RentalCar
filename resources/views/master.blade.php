@@ -40,7 +40,7 @@
                 </form>
 
                 <!-- pembeda sudah login/belum -->
-                @if($role > 0 and $role < 6)
+                @if($role == 5)
                     <button class="btn btn-primary" type="submit">Logout</button>
                 @else
                     <button class="btn btn-primary" type="submit">Login</button>
@@ -52,6 +52,16 @@
     <div class="container-fluid">
         @yield('body')
     </div>
+    
+    <footer class="my-2 text-center bg-dark text-light py-5" id="footer">
+        <h1>Contact Us!</h1>
+        <h3>ACE Rental Car</h3>
+        0859-6639-6142 <br>
+        Jalan Ngagel Jaya Tengah 73 Surabaya <br>
+        @acerentalcar <br>
+        <br>
+        <span class="font-monospace">(C) 2023 - ACERENTALCAR</span>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
