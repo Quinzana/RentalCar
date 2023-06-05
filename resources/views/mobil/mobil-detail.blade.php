@@ -21,10 +21,10 @@
             1. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe a, voluptates ratione incidunt cum, commodi quod sit atque labore quaerat cupiditate! Animi velit suscipit ex maiores aperiam dolores vel alias cum esse minus. Soluta exercitationem eos molestiae doloremque autem iste obcaecati ea quod magnam ducimus saepe nostrum vero praesentium qui impedit quae omnis alias ratione, optio odio! Aperiam repellendus cupiditate deleniti beatae sequi voluptas, rem provident officiis nam voluptatum ducimus ea maxime dicta cumque numquam repellat assumenda nisi impedit molestiae unde. Doloribus a repellat eius magnam voluptatibus omnis, quos molestiae aspernatur ex dolorum ratione temporibus? Doloremque, earum quis. Harum, ut!
         </div>
     </div>
-    <div class="col mt-5 text-center">
+    <div class="col mt-5 text-center px-5">
             <hr>
             <h3>Total Rental :</h3>
-            <h1>{{ $mobilList->harga_sewa }}</h1>
-            <a class="btn btn-primary" href="#" role="button">Link</a>
+            <h1>Rp. {{ $mobilList->harga_sewa }}</h1> / xx hari
+            <a class="btn btn-primary" href="#" role="button">Sewa Sekarang</a>
         </div>
 @endsection
