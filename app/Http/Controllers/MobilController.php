@@ -9,14 +9,14 @@ class MobilController extends Controller
 {
     public function index()
     {
-        $role = 0;
+        $role = 5;
         $mobil = MobilModel::all();
         return view('user.home', ['mobilList' => $mobil, 'role' => $role]);
     }
 
     public function show($id_mobil)
     {
-        $role = 1;
+        $role = 5;
         $mobil = MobilModel::find($id_mobil);
         return view('mobil.mobil-detail', ['mobilList' => $mobil, 'role' => $role]);
     }
