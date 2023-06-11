@@ -1,8 +1,8 @@
 @extends('layout.main')
 
-@section('title', ' ')
+@section('title', 'Dashboard')
 
-@section('dashboard')
+@section('home')
 <div class="container-fluid">
 
     <!-- start page title -->
