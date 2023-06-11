@@ -39,7 +39,7 @@
                     <!-- end Topbar -->
                     
                     <!-- Start Content-->
-                    @yield('dashboard')
+                    @yield('dashboard.home')
                     <!-- container -->
 
                 </div>
