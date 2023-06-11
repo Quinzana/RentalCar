@@ -25,7 +25,7 @@ Route::get('/', [MobilController::class, 'index']);
 Route::get('/mobil-detail/{id}', [MobilController::class, 'show']);
 
 Route::get('/dashboard', function () {
-    return view('dashboard', [
+    return view('dashboard.home', [
         'name' => 'quin',
         'role' => 1
     ]);
