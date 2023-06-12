@@ -2,7 +2,7 @@
 
 @section('title', 'Dashboard')
 
-@section('home')
+@section('dashboard')
 <div class="container-fluid">
 
     <!-- start page title -->

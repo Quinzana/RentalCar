@@ -20,4 +20,11 @@ class MobilController extends Controller
         $mobil = MobilModel::find($id_mobil);
         return view('mobil.mobil-detail', ['mobilList' => $mobil, 'role' => $role]);
     }
+
+    public function list()
+    {
+        $role = 1;
+        $mobil = MobilModel::all();
+        return view('dashboard.mobil', ['mobilList' => $mobil, 'role' => $role]);
+    }
 }

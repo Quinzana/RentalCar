@@ -24,7 +24,7 @@
             </li>
 
             <li class="side-nav-item">
-                <a href="profile" class="side-nav-link">
+                <a href="/dashboardprofile" class="side-nav-link">
                     <i class="uil-user"></i>
                     <span>Profile</span>
                 </a>
@@ -39,13 +39,13 @@
                 <div class="collapse" id="sidebarMaster">
                     <ul class="side-nav-second-level">
                         <li>
-                            <a href="konfirm">Master Customer</a>
+                            <a href="/dashboardcustomer">Master Customer</a>
                         </li>
                         <li>
                             <a href="ambil">Master Pegawai</a>
                         </li>
                         <li>
-                            <a href="kembali">Master Mobil</a>
+                            <a href="/dashboardmobil">Master Mobil</a>
                         </li>
                         <li>
                             <a href="selesai">Master </a>

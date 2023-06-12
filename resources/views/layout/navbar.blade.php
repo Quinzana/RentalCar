@@ -9,7 +9,7 @@
             <div class="dropdown-menu dropdown-menu-end dropdown-menu-animated topbar-dropdown-menu profile-dropdown">
                 <!-- item-->
                 <div class=" dropdown-header noti-title">
-                    <h6 class="text-overflow m-0 text-capitalize">Hello, {{ $name }}!</h6>
+                    <h6 class="text-overflow m-0 text-capitalize">Hello, !</h6>
                 </div>
 
                 <!-- item-->
@@ -31,6 +31,6 @@
         <i class="mdi mdi-menu"></i>
     </button>
     <div class="app-search dropdown d-none d-lg-block pt-2 mt-1 float-end">
-        <div class="fs-3 text-capitalize">Welcome, {{ $name }}!</div>
+        <div class="fs-3 text-capitalize">Welcome!</div>
     </div>
 </div>

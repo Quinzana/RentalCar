@@ -30,3 +30,19 @@ Route::get('/dashboard', function () {
         'role' => 1
     ]);
 });
+
+Route::get('/dashboardprofile', function () {
+    return view('dashboard.profile', [
+        'name' => 'quin',
+        'role' => 1
+    ]);
+});
+
+Route::get('/dashboardcustomer', function () {
+    return view('dashboard.customer', [
+        'name' => 'quin',
+        'role' => 1
+    ]);
+});
+
+Route::get('/dashboardmobil', [MobilController::class, 'list']);
